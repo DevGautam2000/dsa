@@ -35,7 +35,7 @@
     }
 ```
 
-- over here add your absolute/full path to this project that is the root directory of this project in place of <ABSOLUTE PATH>. Remember to remove the angle brackets
+- over here add your absolute/full path to this project that is the root directory of this project in place of \<ABSOLUTE PATH\>. Remember to remove the angle brackets
 
 
 
