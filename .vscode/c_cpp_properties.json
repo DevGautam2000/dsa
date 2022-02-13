@@ -1,0 +1,41 @@
+{
+  "configurations": [
+    {
+      "name": "Mac",
+      "includePath": ["/Users/gautamsaha/Desktop/dsa/dsa-cpp/"],
+      "defines": [],
+      "macFrameworkPath": [],
+      "cStandard": "gnu17",
+      "cppStandard": "gnu++17",
+      "intelliSenseMode": "macos-gcc-arm64",
+      "compilerArgs": [],
+      "mergeConfigurations": false,
+      "compilerPath": "/opt/homebrew/bin/g++-11"
+    },
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/home/gautam/Desktop/projects/dsa-cpp/"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu17",
+      "cppStandard": "gnu++17",
+      "intelliSenseMode": "linux-clang-x64"
+    },
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "E:\\ASUS\\Desktop\\dsa\\dsa-cpp-master"
+      ],
+      "defines": [],
+      "compilerPath": "E:\\MINGW\\bin\\gcc.exe",
+      "cStandard": "gnu17",
+      "cppStandard": "gnu++17",
+      "intelliSenseMode": "windows-gcc-x64"
+    }
+  ],
+  "version": 4
+}
