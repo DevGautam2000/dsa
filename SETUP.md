@@ -59,8 +59,8 @@
     }
 ```
 
-- over here add your <ABSOLUTE PATH> as did earlier. Remember to remove the angle brackets
-- then add the gcc path [for gcc path head over to terminal and write ' which gcc ' and the path that appears is your gcc path] to <GCC PATH>. Remember to remove the angle brackets
+- over here add your \<ABSOLUTE PATH\> as did earlier. Remember to remove the angle brackets
+- then add the gcc path [for gcc path head over to terminal and write ' which gcc ' and the path that appears is your gcc path] to \<GCC PATH\>. Remember to remove the angle brackets
 
 
 #### at last open io.h in folder io
@@ -80,7 +80,7 @@ void io() {
 
 ```
 
-- over here add your <ABSOLUTE PATH> as did earlier. Remember to remove the angle brackets
+- over here add your \<ABSOLUTE PATH\> as did earlier. Remember to remove the angle brackets
 
 
 ## for mac users
@@ -105,7 +105,7 @@ void io() {
     },
 ```
 
-- over here add your absolute/full path to this project that is the root directory of this project in place of <ABSOLUTE PATH>. Remember to remove the angle brackets
+- over here add your absolute/full path to this project that is the root directory of this project in place of \<ABSOLUTE PATH\>. Remember to remove the angle brackets
 
 
 
@@ -129,8 +129,8 @@ void io() {
     },
 ```
 
-- over here add your <ABSOLUTE PATH> as did earlier. Remember to remove the angle brackets
-- then add the gcc path [for gcc path head over to terminal and write ' which g++-11 ' and the path that appears is your gcc path] to <G++-11 PATH>. Remember to remove the angle brackets
+- over here add your \<ABSOLUTE PATH\> as did earlier. Remember to remove the angle brackets
+- then add the gcc path [for gcc path head over to terminal and write ' which g++-11 ' and the path that appears is your gcc path] to \<G++-11 PATH\>. Remember to remove the angle brackets
 
 
 #### at last open io.h in folder io
@@ -150,7 +150,7 @@ void io() {
 
 ```
 
-- over here add your <ABSOLUTE PATH> as did earlier. Remember to remove the angle brackets
+- over here add your \<ABSOLUTE PATH\> as did earlier. Remember to remove the angle brackets
 
 
 ## for windows users
@@ -174,9 +174,9 @@ void io() {
     }
 ```
 
-- over here add your absolute/full path to this project that is the root directory of this project in place of <ABSOLUTE PATH>. Remember to remove the angle brackets
+- over here add your absolute/full path to this project that is the root directory of this project in place of \<ABSOLUTE PATH\>. Remember to remove the angle brackets
 
-- NOTE: if your <ABSOLUTE PATH> is "C:\\something\\" remember to make it "c:/something/"
+- NOTE: if your \<ABSOLUTE PATH\> is "C:\\something\\" remember to make it "c:/something/"
 
 - NOTE: the path for ***"terminal.integrated.shell.windows:"*** has been set by default if your git is installed somewhere else provide that exact location to git bash. if installed on C: drive you are good to go
 
@@ -202,9 +202,9 @@ void io() {
     }
 ```
 
-- over here add your <ABSOLUTE PATH> as did earlier. Remember to remove the angle brackets
+- over here add your \<ABSOLUTE PATH\> as did earlier. Remember to remove the angle brackets
 
-- then add the gcc path [for gcc path head over to terminal and write ' which g++-11 ' and the path that appears is your gcc path] to <G++-11 PATH>. Remember to remove the angle brackets
+- then add the gcc path [for gcc path head over to terminal and write ' which g++-11 ' and the path that appears is your gcc path] to \<G++-11 PATH\>. Remember to remove the angle brackets
 
 - NOTE: the path for ***"compilerPath:"*** has been set by default if your MINGW is installed somewhere else provide that exact location to gcc.exe. if installed on C: drive you are good to go
 
@@ -225,7 +225,7 @@ void io() {
 
 ```
 
-- over here add your <ABSOLUTE PATH> as did earlier. Remember to remove the angle brackets
+- over here add your \<ABSOLUTE PATH\> as did earlier. Remember to remove the angle brackets
 
 
 
