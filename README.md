@@ -67,11 +67,10 @@
 ├── sorting_algos
 ├── stacks
 ├── strings
-├── subject-materials
 ├── templates
 └── trees
 
-60 directories
+59 directories
 
 ```
 
