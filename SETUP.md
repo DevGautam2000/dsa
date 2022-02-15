@@ -178,7 +178,7 @@ void io() {
 
 - NOTE: if your \<ABSOLUTE PATH\> is "C:\\something\\" remember to make it "c:/something/"
 
-- NOTE: the path for ***"terminal.integrated.shell.windows:"*** has been set by default if your git is installed somewhere else provide that exact location to git bash. if installed on C: drive you are good to go
+- NOTE: the path for ***"terminal.integrated.shell.windows:"*** has been set by default to drive E: if your git is installed somewhere else provide that exact location to git bash. if installed on C: specify that drive
 
 
 
@@ -206,7 +206,7 @@ void io() {
 
 - then add the gcc path [for gcc path head over to terminal and write ' which g++-11 ' and the path that appears is your gcc path] to \<G++-11 PATH\>. Remember to remove the angle brackets
 
-- NOTE: the path for ***"compilerPath:"*** has been set by default if your MINGW is installed somewhere else provide that exact location to gcc.exe. if installed on C: drive you are good to go
+- NOTE: the path for ***"compilerPath:"*** has been set by default to drive E: if your MINGW is installed somewhere else provide that exact location to gcc.exe. if installed on C: specify that drive
 
 #### at last open io.h in folder io
 

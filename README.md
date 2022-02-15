@@ -5,18 +5,18 @@
 
 
 
-
-
 #### folder structure
 
 ```js                                                                                                           
 .                                                                                                                                                                                                             
 ├── array
+├── assets
 ├── bit-maipulation
 ├── concepts
 ├── faang
-│   └── array
+│   └── array
 ├── google-kickstart
+├── graph
 ├── io
 ├── leetcode_14_days_algo
 │   ├── binary-search
@@ -46,7 +46,8 @@
 │   └── 03_feb05
 ├── leetcode_weekly_contests
 │   ├── 01_jan30
-│   └── 02_feb06
+│   ├── 02_feb06
+│   └── 03_feb13
 ├── linked_lists
 ├── math
 ├── sde_prep
@@ -70,7 +71,7 @@
 ├── templates
 └── trees
 
-59 directories
+61 directories
 
 ```
 
@@ -99,6 +100,8 @@
      - [suffix\_sum.cpp](array/suffix_sum.cpp)
      - [triplets.cpp](array/triplets.cpp)
      - [valid\_mountain\_array.cpp](array/valid_mountain_array.cpp)
+   - __assets__
+     - [setup.png](assets/setup.png)
    - __bit\-maipulation__
      - [bit\-mask.cpp](bit-maipulation/bit-mask.cpp)
      - [decode\_xored\_array.cpp](bit-maipulation/decode_xored_array.cpp)
@@ -123,6 +126,16 @@
        - [sort\_colors.cpp](faang/array/sort_colors.cpp)
    - __google\-kickstart__
      - [k\-goodness\-string.cpp](google-kickstart/k-goodness-string.cpp)
+   - __graph__
+     - [bfs.cpp](graph/bfs.cpp)
+     - [connected\-components\-count.cpp](graph/connected-components-count.cpp)
+     - [dfs.cpp](graph/dfs.cpp)
+     - [haspath.cpp](graph/haspath.cpp)
+     - [island\-count.cpp](graph/island-count.cpp)
+     - [largest\-component\-size.cpp](graph/largest-component-size.cpp)
+     - [min\-island.cpp](graph/min-island.cpp)
+     - [shortest\-distance.cpp](graph/shortest-distance.cpp)
+     - [undirected\-path.cpp](graph/undirected-path.cpp)
    - __io__
      - [debug\-error.txt](io/debug-error.txt)
      - [input.txt](io/input.txt)
@@ -151,7 +164,6 @@
        - [two\-sum\-ii\-input\-array\-is\-sorted.cpp](leetcode_14_days_algo/two-pointer/two-sum-ii-input-array-is-sorted.cpp)
    - __leetcode\_14\_days\_ds__
      - __array__
-       - [#contains\_duplicate.cpp#](leetcode_14_days_ds/array/%23contains_duplicate.cpp%23)
        - [best\_time\_to\_buy\_and\_sell\_stock.cpp](leetcode_14_days_ds/array/best_time_to_buy_and_sell_stock.cpp)
        - [container\_with\_most\_water.cpp](leetcode_14_days_ds/array/container_with_most_water.cpp)
        - [contains\_duplicate.cpp](leetcode_14_days_ds/array/contains_duplicate.cpp)
@@ -274,6 +286,9 @@
        - [design\-bitset.cpp](leetcode_weekly_contests/02_feb06/design-bitset.cpp)
        - [smallest\-value\-of\-the\-rearranged\-number.cpp](leetcode_weekly_contests/02_feb06/smallest-value-of-the-rearranged-number.cpp)
        - [sort\-even\-and\-odd\-indices\-independently.cpp](leetcode_weekly_contests/02_feb06/sort-even-and-odd-indices-independently.cpp)
+     - __03\_feb13__
+       - [count\-operations\-to\-obtain\-zero.cpp](leetcode_weekly_contests/03_feb13/count-operations-to-obtain-zero.cpp)
+       - [minimum\-operations\-to\-make\-the\-array\-alternating.cpp](leetcode_weekly_contests/03_feb13/minimum-operations-to-make-the-array-alternating.cpp)
    - __linked\_lists__
      - [convert\-binary\-number\-in\-a\-linked\-list\-to\-integer.cpp](linked_lists/convert-binary-number-in-a-linked-list-to-integer.cpp)
      - [delete\_node\_in\_linked\_list.cpp](linked_lists/delete_node_in_linked_list.cpp)
