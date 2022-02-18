@@ -13,6 +13,10 @@ using namespace std;
   debugger::size(x);                                                                     \
   cerr << endl;
 
+
+#define erl cerr<<endl;
+#define erx(x) for(int i=0; i<x; i++) cerr<<endl;
+
 namespace debugger {
 
 

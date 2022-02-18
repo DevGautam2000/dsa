@@ -13,6 +13,9 @@ using namespace std;
   console::size(x);                                                                     \
   cout << endl;
 
+#define elx(x) for(int i=0; i<x; i++) cout<<endl;
+#define el cout<<endl;
+
 namespace console {
 
 
