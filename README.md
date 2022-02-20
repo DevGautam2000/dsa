@@ -114,6 +114,7 @@
      - [pointers.cpp](concepts/pointers.cpp)
      - [structures.cpp](concepts/structures.cpp)
      - [templates.cpp](concepts/templates.cpp)
+   - [dsa\-cpp.sublime\-workspace](dsa-cpp.sublime-workspace)
    - __faang__
      - [Mastering+the+Coding+Interview+(FAANG)+\-+Course+Outline.pdf](faang/Mastering%2Bthe%2BCoding%2BInterview%2B(FAANG)%2B-%2BCourse%2BOutline.pdf)
      - [README.md](faang/README.md)
@@ -279,6 +280,10 @@
      - __03\_feb05__
        - [minimum\-sum\-of\-four\-digit\-number\-after\-splitting\-digits.cpp](leetcode_biweekly_contests/03_feb05/minimum-sum-of-four-digit-number-after-splitting-digits.cpp)
        - [partition\-array\-according\-to\-given\-pivot.cpp](leetcode_biweekly_contests/03_feb05/partition-array-according-to-given-pivot.cpp)
+     - __04\_feb19__
+       - [count\-equal\-and\-divisible\-pairs\-in\-an\-array.cpp](leetcode_biweekly_contests/04_feb19/count-equal-and-divisible-pairs-in-an-array.cpp)
+       - [find\-three\-consecutive\-integers\-that\-sum\-to\-a\-given\-number.cpp](leetcode_biweekly_contests/04_feb19/find-three-consecutive-integers-that-sum-to-a-given-number.cpp)
+       - [maximum\-split\-of\-positive\-even\-integers.cpp](leetcode_biweekly_contests/04_feb19/maximum-split-of-positive-even-integers.cpp)
    - __leetcode\_weekly\_contests__
      - __01\_jan30__
        - [keep\-multiplying\-found\-values\-by\-two.cpp](leetcode_weekly_contests/01_jan30/keep-multiplying-found-values-by-two.cpp)
@@ -289,6 +294,8 @@
      - __03\_feb13__
        - [count\-operations\-to\-obtain\-zero.cpp](leetcode_weekly_contests/03_feb13/count-operations-to-obtain-zero.cpp)
        - [minimum\-operations\-to\-make\-the\-array\-alternating.cpp](leetcode_weekly_contests/03_feb13/minimum-operations-to-make-the-array-alternating.cpp)
+     - [count\-integers\-with\-even\-digit\-sum.cpp](leetcode_weekly_contests/count-integers-with-even-digit-sum.cpp)
+     - [merge\-nodes\-in\-between\-zeros.cpp](leetcode_weekly_contests/merge-nodes-in-between-zeros.cpp)
    - __linked\_lists__
      - [convert\-binary\-number\-in\-a\-linked\-list\-to\-integer.cpp](linked_lists/convert-binary-number-in-a-linked-list-to-integer.cpp)
      - [delete\_node\_in\_linked\_list.cpp](linked_lists/delete_node_in_linked_list.cpp)
@@ -296,6 +303,7 @@
      - [linked\-list\-cycle\-ii.cpp](linked_lists/linked-list-cycle-ii.cpp)
      - [merge\-in\-between\-linked\-lists.cpp](linked_lists/merge-in-between-linked-lists.cpp)
      - [odd\-even\-linked\-list.cpp](linked_lists/odd-even-linked-list.cpp)
+     - [swapping\-nodes\-in\-a\-linked\-list.cpp](linked_lists/swapping-nodes-in-a-linked-list.cpp)
    - __math__
      - [gcd.cpp](math/gcd.cpp)
      - [reverse\_integer.cpp](math/reverse_integer.cpp)
