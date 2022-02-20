@@ -294,8 +294,9 @@
      - __03\_feb13__
        - [count\-operations\-to\-obtain\-zero.cpp](leetcode_weekly_contests/03_feb13/count-operations-to-obtain-zero.cpp)
        - [minimum\-operations\-to\-make\-the\-array\-alternating.cpp](leetcode_weekly_contests/03_feb13/minimum-operations-to-make-the-array-alternating.cpp)
-     - [count\-integers\-with\-even\-digit\-sum.cpp](leetcode_weekly_contests/count-integers-with-even-digit-sum.cpp)
-     - [merge\-nodes\-in\-between\-zeros.cpp](leetcode_weekly_contests/merge-nodes-in-between-zeros.cpp)
+     - __04\_feb20__
+       - [count\-integers\-with\-even\-digit\-sum.cpp](leetcode_weekly_contests/04_feb20/count-integers-with-even-digit-sum.cpp)
+       - [merge\-nodes\-in\-between\-zeros.cpp](leetcode_weekly_contests/04_feb20/merge-nodes-in-between-zeros.cpp)
    - __linked\_lists__
      - [convert\-binary\-number\-in\-a\-linked\-list\-to\-integer.cpp](linked_lists/convert-binary-number-in-a-linked-list-to-integer.cpp)
      - [delete\_node\_in\_linked\_list.cpp](linked_lists/delete_node_in_linked_list.cpp)
