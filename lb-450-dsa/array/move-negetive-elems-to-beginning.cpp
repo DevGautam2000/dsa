@@ -39,6 +39,8 @@ int main(){
 
     res = s.moveElementsDutchNationalAlgo(nums);
     cout<<"Dutch national flag\n";console::display(res);el;
+
+
     return 0;
 }
 

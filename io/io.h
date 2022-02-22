@@ -4,6 +4,7 @@
 #include "templates/debug.h"
 #include "templates/input.h"
 #include "templates/algo.h"
+#include "templates/variadic.h"
 #include "templates/listnode.h"
 #include "templates/treenode.h"
 #include <bits/stdc++.h>
@@ -13,8 +14,11 @@ using namespace tn;
 using namespace debugger;
 using namespace console;
 using namespace input;
+using namespace var;
+using namespace type;
 using namespace algo;
 using namespace ln;
+
 
 void io() {
 #ifndef ONLINE_JUDGE

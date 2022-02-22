@@ -1,10 +1,8 @@
 #include "io/io.h"
 
-class Solution
-{
+class Solution{
 public:
-    int climbStairs(int n)
-    {
+    int climbStairs(int n){
 
         int mem[n + 1];
         mem[1] = 1;
@@ -20,8 +18,7 @@ public:
     }
 } s;
 
-int main()
-{
+int main(){
     io();
     cout << "DP Solution: " << s.climbStairs(6) << endl;
 

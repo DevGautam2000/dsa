@@ -23,8 +23,7 @@ public:
  	return {min , max};
  }  
 
- //using quick select
-
+ //TODO: using quick select
 
  vector<int> kthMinMaxQuickSelect(vector<int> nums, int k){
      //* TC: O(n) and O(n^2) for worst case, SC: O(1) 
@@ -59,7 +58,7 @@ public:
 
 //using set
 vector<int> kthMinMaxSet(vector<int> nums, int k){
-     //* TC: O(logn) and O(n) for worst case, SC: O(1) 
+     //* TC: O(logn) and O(n) for worst case, SC: O(n) 
  	
  	set<int> s(nums.begin(),nums.end());
  	set<int> :: iterator it = s.begin();
