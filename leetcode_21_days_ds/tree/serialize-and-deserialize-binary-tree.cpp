@@ -3,18 +3,19 @@
 class Solution{
 public:
 
-TreeNode* buildTree(istringstream& ss){
+    TreeNode* buildTree(istringstream& ss){
         string s;
         ss >> s;
-        
+
         if (s == "null")
-			return NULL;
-        
+			return nullptr;
+
         TreeNode* node = new TreeNode(stoi(s));
         node->left = buildTree(ss);
         node->right = buildTree(ss);
             
         return node;
+
     }
    
     string serialize(TreeNode* root) {
