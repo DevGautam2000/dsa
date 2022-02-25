@@ -8,19 +8,22 @@
 #### folder structure
 
 ```js                                                                                                           
-.                                                                                                                                                                                                             
+.                                                        
 ├── array
 ├── assets
 ├── bit-maipulation
 ├── concepts
 ├── faang
 │   └── array
-├── google-kickstart
 ├── graph
 ├── io
+├── lb-450-dsa
+│   └── array
+├── leetcode_12_days_programming-skills
 ├── leetcode_14_days_algo
 │   ├── binary-search
 │   ├── bit-maipulation
+│   ├── dfs-and-bfs
 │   ├── sliding-window
 │   └── two-pointer
 ├── leetcode_14_days_ds
@@ -68,15 +71,10 @@
 │   ├── string
 │   └── trie
 ├── sorting_algos
-├── stacks
-├── strings
-├── templates
-└── trees
 
-63 directories
+66 directories
 
 ```
-
    - __array__
      - [Sort\_Array\_by\_Increasing\_Frequency.cpp](array/Sort_Array_by_Increasing_Frequency.cpp)
      - [build\-array\-from\-permutation.cpp](array/build-array-from-permutation.cpp)
@@ -127,8 +125,6 @@
        - [missing\_number.cpp](faang/array/missing_number.cpp)
        - [pascals\_triangle.cpp](faang/array/pascals_triangle.cpp)
        - [sort\_colors.cpp](faang/array/sort_colors.cpp)
-   - __google\-kickstart__
-     - [k\-goodness\-string.cpp](google-kickstart/k-goodness-string.cpp)
    - __graph__
      - [bfs.cpp](graph/bfs.cpp)
      - [connected\-components\-count.cpp](graph/connected-components-count.cpp)
@@ -145,6 +141,20 @@
      - [io.h](io/io.h)
      - [output.txt](io/output.txt)
      - [parser.h](io/parser.h)
+   - __lb\-450\-dsa__
+     - [README.md](lb-450-dsa/README.md)
+     - __array__
+       - [contiguous\-subarray\-sum.cpp](lb-450-dsa/array/contiguous-subarray-sum.cpp)
+       - [find\-union\-and\-intersection\-in\-unsorted\-arr.cpp](lb-450-dsa/array/find-union-and-intersection-in-unsorted-arr.cpp)
+       - [kth\-min\-max\-elem.cpp](lb-450-dsa/array/kth-min-max-elem.cpp)
+       - [min\-max\-in\-arr.cpp](lb-450-dsa/array/min-max-in-arr.cpp)
+       - [move\-negetive\-elems\-to\-beginning.cpp](lb-450-dsa/array/move-negetive-elems-to-beginning.cpp)
+       - [program\-cyclically\-rotate\-array\-one.cpp](lb-450-dsa/array/program-cyclically-rotate-array-one.cpp)
+       - [reverse\-array.cpp](lb-450-dsa/array/reverse-array.cpp)
+       - [sort\-colors\-0s\-and\-1s.cpp](lb-450-dsa/array/sort-colors-0s-and-1s.cpp)
+   - __leetcode\_12\_days\_programming\-skills__
+     - [average\-salary\-excluding\-the\-minimum\-and\-maximum\-salary.cpp](leetcode_12_days_programming-skills/average-salary-excluding-the-minimum-and-maximum-salary.cpp)
+     - [count\-odd\-numbers\-in\-an\-interval\-range.cpp](leetcode_12_days_programming-skills/count-odd-numbers-in-an-interval-range.cpp)
    - __leetcode\_14\_days\_algo__
      - __binary\-search__
        - [binary\-search.cpp](leetcode_14_days_algo/binary-search/binary-search.cpp)
@@ -153,6 +163,12 @@
      - __bit\-maipulation__
        - [number\-of\-1\-bits.cpp](leetcode_14_days_algo/bit-maipulation/number-of-1-bits.cpp)
        - [power\-of\-two.cpp](leetcode_14_days_algo/bit-maipulation/power-of-two.cpp)
+     - __dfs\-and\-bfs__
+       - [01\-matrix.cpp](leetcode_14_days_algo/dfs-and-bfs/01-matrix.cpp)
+       - [flood\-fill.cpp](leetcode_14_days_algo/dfs-and-bfs/flood-fill.cpp)
+       - [max\-area\-of\-island.cpp](leetcode_14_days_algo/dfs-and-bfs/max-area-of-island.cpp)
+       - [merge\-two\-binary\-trees.cpp](leetcode_14_days_algo/dfs-and-bfs/merge-two-binary-trees.cpp)
+       - [rotting\-oranges.cpp](leetcode_14_days_algo/dfs-and-bfs/rotting-oranges.cpp)
      - __sliding\-window__
        - [longest\-substring\-without\-repeating\-characters.cpp](leetcode_14_days_algo/sliding-window/longest-substring-without-repeating-characters.cpp)
        - [permutations\-in\-string.cpp](leetcode_14_days_algo/sliding-window/permutations-in-string.cpp)
@@ -350,6 +366,7 @@
      - [fizzbuzz.cpp](strings/fizzbuzz.cpp)
      - [goal\-parser\-interpretation.cpp](strings/goal-parser-interpretation.cpp)
      - [jewels\_and\_stones.cpp](strings/jewels_and_stones.cpp)
+     - [k\-goodness\-string.cpp](strings/k-goodness-string.cpp)
      - [maximum\-number\-of\-words\-found\-in\-sentences.cpp](strings/maximum-number-of-words-found-in-sentences.cpp)
      - [reverse\_string.cpp](strings/reverse_string.cpp)
      - [shortest\_path.cpp](strings/shortest_path.cpp)
@@ -361,6 +378,7 @@
      - [input.h](templates/input.h)
      - [listnode.h](templates/listnode.h)
      - [treenode.h](templates/treenode.h)
+     - [variadic.h](templates/variadic.h)
    - __trees__
      - [all\-elements\-in\-two\-binary\-search\-trees.cpp](trees/all-elements-in-two-binary-search-trees.cpp)
      - [flatten\_binary\_tree\_to\_linkedlist.cpp](trees/flatten_binary_tree_to_linkedlist.cpp)

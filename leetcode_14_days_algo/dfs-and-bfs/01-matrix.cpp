@@ -5,8 +5,7 @@ class Solution {
     typedef vector<vector<int>> vvi;
     enum Direction{ up=-1 , down=1, inplace=0};
     vector<Direction> dirs = {inplace, up, inplace, down, inplace};
-    vector<int> nums= {1,2,3};
-	
+
 public:
     vvi updateMatrix(vvi& mat) {
         

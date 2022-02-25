@@ -41,6 +41,14 @@ template <class S> void debug(S a[],int n) {
   cerr << "}" << endl;
 }
 
+template <typename... Args> void debug(tuple<Args...> tup) {
+  cerr << "{";
+
+  std::apply([](auto&&... args) {((cerr << args << " "), ...);}, tup);
+  cerr << "}" << endl;
+}
+
+
 template <class S> void debug(vector<S> &vec) {
   cerr << "{";
   for (auto i : vec) {

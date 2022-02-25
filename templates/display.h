@@ -113,6 +113,15 @@ template <class I> void display(stack<I> s) {
   }
   cout << "]," << endl;
 }
+
+template <typename... Args> void display(tuple<Args...> tup) {
+  cout << "{";
+
+  std::apply([](auto&&... args) {((cout << args << " "), ...);}, tup);
+  cout << "}" << endl;
+}
+
+
 template <class I> void display(queue<I> q) {
   cout << "[ front -> ";
   while (!q.empty()) {
@@ -151,6 +160,7 @@ template <class S> void display(vector<S> &vec) {
   }
   cout << "}" << endl;
 }
+
 
 template <class L> void size(L *s) {
   int count = 0;
