@@ -24,10 +24,10 @@ int main(){
     cout << " Solution: "  << endl;
     vector<int> nodes = {1,2,7,4,5};
     int n = 2;
-    auto head = createList(nodes);
+    auto head = ln::createList(nodes);
     auto res = s.removeNthFromEnd(head,n);
 
-    display(res);
+    console::display(res);
     return 0;
 }
 

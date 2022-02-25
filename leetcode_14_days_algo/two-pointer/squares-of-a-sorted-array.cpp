@@ -27,7 +27,7 @@ int main(){
     cout << " Solution: " << endl;
     vector<int> nums ={-4,-1,0,3,10};
     auto res = s.sortedSquares(nums);
-    display(res);
+    console::display(res);
 
     return 0;
 }

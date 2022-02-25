@@ -16,10 +16,7 @@ int main()
     vector<char> c = {'h', 'e', 'l', 'l', 'o'};
     cout << " Solution: ";
     sol.reverseString(c);
-    for (auto i : c)
-    {
-        cout << i << " ";
-    }
+    console::display(c);
 
     return 0;
 }
