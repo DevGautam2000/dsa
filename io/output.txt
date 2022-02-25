@@ -1,4 +1,2 @@
-naiveSolution => {5 1 2 3 4 }
-
-betterSolution => {5 1 2 3 4 }
-
+ Solution: 
+[1] -> [1] -> [2] -> [3] -> [4] -> [4] -> [4] -> [7] -> [NULL]

@@ -37,7 +37,6 @@ public:
 		else right= idx-1;
 	}
 
-	debug(nums);
 	return {nums[nums.size()-idx-1],nums[idx]};
 
  }   

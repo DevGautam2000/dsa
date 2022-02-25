@@ -5,13 +5,37 @@ using namespace std;
 
 #define console_log(x)                                                                 \
   cout << #x << " => ";                                                        \
+  console::display(x);                                                          \
+  el;                                                                   \
+
+#define console_line(x)                                                                 \
+  cout << #x << " => ";                                                        \
   console::display(x);                                                                  \
-  cout << endl;
+
+#define clog(x)                                                                 \
+  cout << #x << " => ";                                                        \
+  console::display(x);                                                        \
+  el;                                                                \
+
+#define cline(x)                                                                 \
+  cout << #x << " => ";                                                        \
+  console::display(x);                                                                  \
 
 #define console_logsize(x)                                                             \
   cout << "[ " << #x << " ] : SIZE =  ";                                       \
   console::size(x);                                                                     \
-  cout << endl;
+  el;
+
+#define clog_size(x)                                                             \
+  cout << "[ " << #x << " ] : SIZE =  ";                                       \
+  console::size(x);                                                                     \
+  el;
+
+#define cspace                                                             \
+  cout << " "; 
+
+#define cspacen(x)                                                             \
+  for(int i=0; i<x ;i++) cout << " "; 
 
 #define elx(x) for(int i=0; i<x; i++) cout<<endl;
 #define el cout<<endl;
@@ -102,10 +126,11 @@ template <class I> void display(queue<I> q) {
 template <class L> void display(L *s) {
 
   while (s) {
-    cout << "[" << s->val << "] -> ";
+    auto t = s;
+    cout << "[" << t->val << "] -> ";
     s = s->next;
   }
-  cout << "[NULL]";
+  cout << "[NULL]";el;
 }
 template <class S> void display(S a[],int n) {
   cout << "{";

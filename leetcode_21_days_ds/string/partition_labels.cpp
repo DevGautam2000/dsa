@@ -35,7 +35,7 @@ int main(){
     string s = "ababcbacadefegdehijhklij";
     cout << " Solution: "  << endl;
     auto res  = sol.partitionLabels(s);
-    display(res);
+    console::display(res);
 
     
     return 0;

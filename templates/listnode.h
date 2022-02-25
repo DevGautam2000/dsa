@@ -61,4 +61,5 @@ bool detectCycle(ListNode *head) {
 
   return false;
 }
+  
 } // namespace ln

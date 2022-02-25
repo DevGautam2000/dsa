@@ -9,14 +9,11 @@ public:
   	int maxSum=nums[0],curr=nums[0];
 
 
-  	for (int i = 1; i < nums.size(); ++i)
-  	{
-                auto s=curr+nums[i];
+  	for (int i = 1; i < nums.size(); ++i){
+      auto s=curr+nums[i];
   		curr  = max(nums[i],s);
   		maxSum= max(maxSum,curr);
   	}
-
-
 
   	return maxSum;
  }   

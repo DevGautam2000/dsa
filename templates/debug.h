@@ -6,19 +6,28 @@ using namespace std;
 #define out(x)                                                                 \
   cerr << #x << " => ";                                                        \
   debugger::debug(x);                                                                  \
-  cerr <<endl;
+  erl;
 
+#define outwl(x)                                                                 \
+  cerr << #x << " => ";                                                        \
+  debugger::debug(x);     
+                                                           \
 #define outsize(x)                                                             \
   cerr << "[ " << #x << " ] : SIZE =  ";                                       \
   debugger::size(x);                                                                     \
-  cerr << endl;
+  erl;
+
+#define espace                                                             \
+  cerr << " "; 
+
+#define espacen(x)                                                             \
+  for(int i=0; i<x ;i++) cerr << " "; 
 
 
 #define erl cerr<<endl;
 #define erx(x) for(int i=0; i<x; i++) cerr<<endl;
 
 namespace debugger {
-
 
 template <class T> void debug(T var) { cerr << var; }
 
@@ -125,7 +134,7 @@ template <class L> void debug(L *s) {
     cerr << "[" << s->val << "] -> ";
     s = s->next;
   }
-  cerr << "[NULL]";
+  cerr << "[NULL]";erl;
 }
 
 template <class L> void size(L *s) {
