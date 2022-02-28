@@ -13,5 +13,5 @@ namespace input{
 	  for (auto &i: n) {
 	    f(i);
 	  }
-	}
+	}	
 }

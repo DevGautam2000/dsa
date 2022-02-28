@@ -40,3 +40,16 @@ int main(){
     
     return 0;
 }
+
+day1-basic-data-type
+day2-operator
+day3-conditional-statements
+day4-loop
+day5-function
+day6-array
+day7-array
+day8-string
+day9-string
+day10-linked-list-&-tree
+day11-containers-&-libraries
+day12-class-&-object

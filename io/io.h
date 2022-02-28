@@ -7,6 +7,7 @@
 #include "templates/variadic.h"
 #include "templates/listnode.h"
 #include "templates/treenode.h"
+#include "templates/node.h"
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -18,6 +19,7 @@ using namespace var;
 using namespace type;
 using namespace algo;
 using namespace ln;
+using namespace node;
 
 
 void io() {
@@ -30,7 +32,8 @@ void io() {
 
 #endif
 }
-void io(string path) {
+
+void io(string path) { //depreceated
   string finalpath = parse(path);
 #ifndef ONLINE_JUDGE
   string inp = finalpath + "io/input.txt";

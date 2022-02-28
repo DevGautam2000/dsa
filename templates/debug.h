@@ -17,6 +17,20 @@ using namespace std;
   debugger::size(x);                                                                     \
   erl;
 
+#define elog(x)                                                                 \
+  cerr << #x << " => ";                                                        \
+  debugger::debug(x);                                                                  \
+  erl;
+
+#define elogwl(x)                                                                 \
+  cerr << #x << " => ";                                                        \
+  debugger::debug(x);     
+                                                           \
+#define elog_size(x)                                                             \
+  cerr << "[ " << #x << " ] : SIZE =  ";                                       \
+  debugger::size(x);                                                                     \
+  erl;
+
 #define espace                                                             \
   cerr << " "; 
 

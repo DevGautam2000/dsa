@@ -33,7 +33,7 @@ public:
 int main(){
     io();
     cout << " Solution: "  << endl;
-    auto root = new TreeNode(1,
+    auto root = new tn::TreeNode(1,
     							new TreeNode(2),
     							new TreeNode(3));
     BSTIterator* obj = new BSTIterator(root);
