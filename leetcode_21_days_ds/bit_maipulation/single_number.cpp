@@ -17,7 +17,7 @@ public:
         //!    => 0 ^ 5
         //!    => 5
 
-        //*TC: O(n), SC: O(1)
+        //* TC: O(n), SC: O(1)
         int res = 0;
         for (auto i : nums)
             res ^= i;
