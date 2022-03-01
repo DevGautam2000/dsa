@@ -94,4 +94,4 @@
 
 ```
 
-#### To see more exploded view click [here](./EXPLODED.md)
+#### For exploded view click [here](./EXPLODED.md)

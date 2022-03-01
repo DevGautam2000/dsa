@@ -1,5 +1,3 @@
-79 directories, 270 files
-
    - __array__
      - [Sort\_Array\_by\_Increasing\_Frequency.cpp](array/Sort_Array_by_Increasing_Frequency.cpp)
      - [build\-array\-from\-permutation.cpp](array/build-array-from-permutation.cpp)
@@ -343,4 +341,3 @@
      - [kth\_smallest\_value.cpp](trees/kth_smallest_value.cpp)
      - [max\-depth.cpp](trees/max-depth.cpp)
      - [range\-sum\-of\-bst.cpp](trees/range-sum-of-bst.cpp)
-
