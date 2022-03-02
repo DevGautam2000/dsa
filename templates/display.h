@@ -45,7 +45,6 @@ namespace console {
 
 template <class T> void display(T var) { cout << var; }
 
-
 template <class S> void display(list<S> &l) {
    
   for (auto i : l) 
