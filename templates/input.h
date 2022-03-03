@@ -14,4 +14,9 @@ namespace input{
 	    f(i);
 	  }
 	}	
+
+	template <class... T>
+	std::tuple<T...> tupleOf(T... values) {
+    return std::tuple<T...>(values...);
+  	}
 }

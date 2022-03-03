@@ -70,12 +70,18 @@
        - [find\-union\-and\-intersection\-in\-unsorted\-arr.cpp](lb-450-dsa/array/find-union-and-intersection-in-unsorted-arr.cpp)
        - [kth\-min\-max\-elem.cpp](lb-450-dsa/array/kth-min-max-elem.cpp)
        - [min\-max\-in\-arr.cpp](lb-450-dsa/array/min-max-in-arr.cpp)
+       - [minimize\-the\-maximum\-difference\-between\-the\-heights.cpp](lb-450-dsa/array/minimize-the-maximum-difference-between-the-heights.cpp)
        - [move\-negetive\-elems\-to\-beginning.cpp](lb-450-dsa/array/move-negetive-elems-to-beginning.cpp)
        - [program\-cyclically\-rotate\-array\-one.cpp](lb-450-dsa/array/program-cyclically-rotate-array-one.cpp)
        - [reverse\-array.cpp](lb-450-dsa/array/reverse-array.cpp)
        - [sort\-colors\-0s\-and\-1s.cpp](lb-450-dsa/array/sort-colors-0s-and-1s.cpp)
    - __leetcode\_12\_days\_programming\-skills__
      - __array__
+       - [matrix\-diagonal\-sum.cpp](leetcode_12_days_programming-skills/array/matrix-diagonal-sum.cpp)
+       - [move\-zeroes.cpp](leetcode_12_days_programming-skills/array/move-zeroes.cpp)
+       - [reshape\-matrix.cpp](leetcode_12_days_programming-skills/array/reshape-matrix.cpp)
+       - [richest\-customer\-wealth.cpp](leetcode_12_days_programming-skills/array/richest-customer-wealth.cpp)
+       - [sum\-of\-all\-odd\-length\-subarrays.cpp](leetcode_12_days_programming-skills/array/sum-of-all-odd-length-subarrays.cpp)
      - __basic\-data\-type__
        - [average\-salary\-excluding\-the\-minimum\-and\-maximum\-salary.cpp](leetcode_12_days_programming-skills/basic-data-type/average-salary-excluding-the-minimum-and-maximum-salary.cpp)
        - [count\-odd\-numbers\-in\-an\-interval\-range.cpp](leetcode_12_days_programming-skills/basic-data-type/count-odd-numbers-in-an-interval-range.cpp)
@@ -85,6 +91,7 @@
        - [largest\-perimeter\-triangle.cpp](leetcode_12_days_programming-skills/conditional-statements/largest-perimeter-triangle.cpp)
      - __containers\-and\-libraries__
      - __function__
+       - [next\-greatest\-element\-i.cpp](leetcode_12_days_programming-skills/function/next-greatest-element-i.cpp)
      - __linked\-list\-and\-tree__
      - __loop__
        - [can\-make\-arithmetic\-progression\-from\-sequence.cpp](leetcode_12_days_programming-skills/loop/can-make-arithmetic-progression-from-sequence.cpp)
@@ -341,3 +348,4 @@
      - [kth\_smallest\_value.cpp](trees/kth_smallest_value.cpp)
      - [max\-depth.cpp](trees/max-depth.cpp)
      - [range\-sum\-of\-bst.cpp](trees/range-sum-of-bst.cpp)
+
