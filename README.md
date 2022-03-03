@@ -1,6 +1,8 @@
 ### **dsa-cpp**
 
 
+### More dsa and interview prep resources [here](https://drive.google.com/drive/folders/11SZp4eFQZT9nIWbS0t1uJiKMmx0h3eoA?usp=sharing)
+
 ### NOTE: to use this repo in your local system follow the setup [here](./SETUP.md)
 
 
