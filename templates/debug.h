@@ -61,7 +61,15 @@ template <typename... Args> void debug(tuple<Args...> tup) {
   std::apply([](auto&&... args) {((cerr << args << " "), ...);}, tup);
   cerr << "}" << endl;
 }
+template <class K, class V> void debug(pair<K, V> &p) {
+  cerr << "{ ";
 
+  debug(p.first);
+  cerr << " : ";
+  debug(p.second);
+  cerr << ", ";
+  cerr << "}," << endl;
+}
 
 template <class S> void debug(vector<S> &vec) {
   cerr << "{";
@@ -122,15 +130,7 @@ template <class K, class V> void debug(unordered_map<K, V> &mp) {
   cerr << "}," << endl;
 }
 
-template <class K, class V> void debug(pair<K, V> &p) {
-  cerr << "{ ";
 
-  debug(p.first);
-  cerr << " : ";
-  debug(p.second);
-  cerr << ", ";
-  cerr << "}," << endl;
-}
 template <class I> void debug(stack<I> s) {
   cerr << "[ top -> ";
   while (!s.empty()) {
