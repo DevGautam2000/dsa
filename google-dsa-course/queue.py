@@ -13,6 +13,7 @@ class Queue:
     def enqueue(self, new_element):
         self.storage.append(new_element)
 
+
     def peek(self):
         if self.storage:
             return self.storage[0]
