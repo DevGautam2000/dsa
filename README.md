@@ -1,6 +1,8 @@
 ### **dsa-cpp**
 
 
+### Big O Cheat Sheet [here](https://www.bigocheatsheet.com/)
+
 ### More dsa and interview prep resources [here](https://drive.google.com/drive/folders/11SZp4eFQZT9nIWbS0t1uJiKMmx0h3eoA?usp=sharing)
 
 ### NOTE: to use this repo in your local system follow the setup [here](./SETUP.md)
@@ -10,12 +12,14 @@
 #### folder structure
 
 
-```                                                                                                                                   
+```                             
 ├── array
 ├── bit-maipulation
 ├── concepts
 ├── faang
 │   └── array
+├── google-dsa-course
+│   └── __pycache__
 ├── graph
 ├── io
 ├── lb-450-dsa
@@ -93,7 +97,7 @@
 ├── templates
 └── trees
 
-81 directories
+83 directories
 
 ```
 

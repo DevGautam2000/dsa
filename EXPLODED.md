@@ -1,4 +1,3 @@
-
    - __array__
      - [Sort\_Array\_by\_Increasing\_Frequency.cpp](array/Sort_Array_by_Increasing_Frequency.cpp)
      - [build\-array\-from\-permutation.cpp](array/build-array-from-permutation.cpp)
@@ -47,6 +46,13 @@
        - [missing\_number.cpp](faang/array/missing_number.cpp)
        - [pascals\_triangle.cpp](faang/array/pascals_triangle.cpp)
        - [sort\_colors.cpp](faang/array/sort_colors.cpp)
+   - __google\-dsa\-course__
+     - [prac.py](google-dsa-course/prac.py)
+     - [pyio.py](google-dsa-course/pyio.py)
+     - [pyio.pyc](google-dsa-course/pyio.pyc)
+     - [queue.py](google-dsa-course/queue.py)
+     - [singly\-linked\-list.py](google-dsa-course/singly-linked-list.py)
+     - [stack\-using\-linked\-list.py](google-dsa-course/stack-using-linked-list.py)
    - __graph__
      - [bfs.cpp](graph/bfs.cpp)
      - [connected\-components\-count.cpp](graph/connected-components-count.cpp)
