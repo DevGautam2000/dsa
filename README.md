@@ -10,10 +10,8 @@
 #### folder structure
 
 
-```
-.
+```                                                                                                                                   
 ├── array
-├── assets
 ├── bit-maipulation
 ├── concepts
 ├── faang
@@ -62,13 +60,16 @@
 │   ├── 01_jan08
 │   ├── 02_jan22
 │   ├── 03_feb05
-│   └── 04_feb19
+│   ├── 04_feb19
+│   └── 05_mar05
 ├── leetcode_weekly_contests
 │   ├── 01_jan30
 │   ├── 02_feb06
 │   ├── 03_feb13
 │   ├── 04_feb20
-│   └── 05_feb27
+│   ├── 05_feb27
+│   ├── 06_mar06
+│   └── 07_mar13
 ├── linked_lists
 ├── math
 ├── sde_prep
@@ -92,7 +93,7 @@
 ├── templates
 └── trees
 
-79 directories
+81 directories
 
 ```
 

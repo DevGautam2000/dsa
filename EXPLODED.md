@@ -1,3 +1,4 @@
+
    - __array__
      - [Sort\_Array\_by\_Increasing\_Frequency.cpp](array/Sort_Array_by_Increasing_Frequency.cpp)
      - [build\-array\-from\-permutation.cpp](array/build-array-from-permutation.cpp)
@@ -23,8 +24,6 @@
      - [suffix\_sum.cpp](array/suffix_sum.cpp)
      - [triplets.cpp](array/triplets.cpp)
      - [valid\_mountain\_array.cpp](array/valid_mountain_array.cpp)
-   - __assets__
-     - [setup.png](assets/setup.png)
    - __bit\-maipulation__
      - [bit\-mask.cpp](bit-maipulation/bit-mask.cpp)
      - [decode\_xored\_array.cpp](bit-maipulation/decode_xored_array.cpp)
@@ -37,6 +36,7 @@
      - [pointers.cpp](concepts/pointers.cpp)
      - [structures.cpp](concepts/structures.cpp)
      - [templates.cpp](concepts/templates.cpp)
+   - [dsa\-cpp.sublime\-workspace](dsa-cpp.sublime-workspace)
    - __faang__
      - [Mastering+the+Coding+Interview+(FAANG)+\-+Course+Outline.pdf](faang/Mastering%2Bthe%2BCoding%2BInterview%2B(FAANG)%2B-%2BCourse%2BOutline.pdf)
      - [README.md](faang/README.md)
@@ -86,21 +86,41 @@
        - [average\-salary\-excluding\-the\-minimum\-and\-maximum\-salary.cpp](leetcode_12_days_programming-skills/basic-data-type/average-salary-excluding-the-minimum-and-maximum-salary.cpp)
        - [count\-odd\-numbers\-in\-an\-interval\-range.cpp](leetcode_12_days_programming-skills/basic-data-type/count-odd-numbers-in-an-interval-range.cpp)
      - __class\-and\-object__
+       - [design\-parking\-system.cpp](leetcode_12_days_programming-skills/class-and-object/design-parking-system.cpp)
+       - [range\-sum\-query\-immutable.cpp](leetcode_12_days_programming-skills/class-and-object/range-sum-query-immutable.cpp)
      - __conditional\-statements__
        - [find\-nearest\-point\-that\-has\-the\-same\-x\-or\-y\-coordinate.cpp](leetcode_12_days_programming-skills/conditional-statements/find-nearest-point-that-has-the-same-x-or-y-coordinate.cpp)
        - [largest\-perimeter\-triangle.cpp](leetcode_12_days_programming-skills/conditional-statements/largest-perimeter-triangle.cpp)
      - __containers\-and\-libraries__
+       - [contains\-duplicate.cpp](leetcode_12_days_programming-skills/containers-and-libraries/contains-duplicate.cpp)
+       - [implement\-queue\-using\-stack.cpp](leetcode_12_days_programming-skills/containers-and-libraries/implement-queue-using-stack.cpp)
+       - [sort\-integers\-by\-the\-number\-of\-1\-bits.cpp](leetcode_12_days_programming-skills/containers-and-libraries/sort-integers-by-the-number-of-1-bits.cpp)
+       - [valid\-anagram.cpp](leetcode_12_days_programming-skills/containers-and-libraries/valid-anagram.cpp)
      - __function__
+       - [check\-if\-it\-is\-a\-straight\-line.cpp](leetcode_12_days_programming-skills/function/check-if-it-is-a-straight-line.cpp)
+       - [n\-ary\-tree\-preorder\-traversal.cpp](leetcode_12_days_programming-skills/function/n-ary-tree-preorder-traversal.cpp)
+       - [next\-greater\-element\-i.cpp](leetcode_12_days_programming-skills/function/next-greater-element-i.cpp)
        - [next\-greatest\-element\-i.cpp](leetcode_12_days_programming-skills/function/next-greatest-element-i.cpp)
      - __linked\-list\-and\-tree__
+       - [convert\-binary\-number\-in\-a\-linked\-list\-to\-integer.cpp](leetcode_12_days_programming-skills/linked-list-and-tree/convert-binary-number-in-a-linked-list-to-integer.cpp)
+       - [maximum\-depth\-of\-binary\-tree.cpp](leetcode_12_days_programming-skills/linked-list-and-tree/maximum-depth-of-binary-tree.cpp)
+       - [middle\-of\-the\-linked\-list.cpp](leetcode_12_days_programming-skills/linked-list-and-tree/middle-of-the-linked-list.cpp)
+       - [sum\-of\-left\-leaves.cpp](leetcode_12_days_programming-skills/linked-list-and-tree/sum-of-left-leaves.cpp)
      - __loop__
        - [can\-make\-arithmetic\-progression\-from\-sequence.cpp](leetcode_12_days_programming-skills/loop/can-make-arithmetic-progression-from-sequence.cpp)
        - [check\-if\-one\-string\-swap\-can\-make\-strings\-equal.cpp](leetcode_12_days_programming-skills/loop/check-if-one-string-swap-can-make-strings-equal.cpp)
+       - [happy\-number.cpp](leetcode_12_days_programming-skills/loop/happy-number.cpp)
        - [sign\-of\-the\-product\-of\-an\-array.cpp](leetcode_12_days_programming-skills/loop/sign-of-the-product-of-an-array.cpp)
      - __operator__
        - [number\-of\-1\-bits.cpp](leetcode_12_days_programming-skills/operator/number-of-1-bits.cpp)
        - [subtract\-the\-product\-and\-sum\-of\-digits\-of\-an\-integer.cpp](leetcode_12_days_programming-skills/operator/subtract-the-product-and-sum-of-digits-of-an-integer.cpp)
      - __string__
+       - [decrypt\-string\-from\-alphabet\-to\-integer\-mapping.cpp](leetcode_12_days_programming-skills/string/decrypt-string-from-alphabet-to-integer-mapping.cpp)
+       - [find\-the\-difference.cpp](leetcode_12_days_programming-skills/string/find-the-difference.cpp)
+       - [goal\-parser\-interpretation.cpp](leetcode_12_days_programming-skills/string/goal-parser-interpretation.cpp)
+       - [merge\-strings\-alternately.cpp](leetcode_12_days_programming-skills/string/merge-strings-alternately.cpp)
+       - [to\-lower\-case.cpp](leetcode_12_days_programming-skills/string/to-lower-case.cpp)
+       - [verifying\-an\-alien\-dictionary.cpp](leetcode_12_days_programming-skills/string/verifying-an-alien-dictionary.cpp)
    - __leetcode\_14\_days\_algo__
      - __backtracking__
        - [combinations.cpp](leetcode_14_days_algo/backtracking/combinations.cpp)
@@ -259,6 +279,9 @@
        - [count\-equal\-and\-divisible\-pairs\-in\-an\-array.cpp](leetcode_biweekly_contests/04_feb19/count-equal-and-divisible-pairs-in-an-array.cpp)
        - [find\-three\-consecutive\-integers\-that\-sum\-to\-a\-given\-number.cpp](leetcode_biweekly_contests/04_feb19/find-three-consecutive-integers-that-sum-to-a-given-number.cpp)
        - [maximum\-split\-of\-positive\-even\-integers.cpp](leetcode_biweekly_contests/04_feb19/maximum-split-of-positive-even-integers.cpp)
+     - __05\_mar05__
+       - [most\-frequent\-number\-following\-key\-in\-an\-array.cpp](leetcode_biweekly_contests/05_mar05/most-frequent-number-following-key-in-an-array.cpp)
+       - [sort\-the\-jumbled\-numbers.cpp](leetcode_biweekly_contests/05_mar05/sort-the-jumbled-numbers.cpp)
    - __leetcode\_weekly\_contests__
      - __01\_jan30__
        - [keep\-multiplying\-found\-values\-by\-two.cpp](leetcode_weekly_contests/01_jan30/keep-multiplying-found-values-by-two.cpp)
@@ -276,6 +299,12 @@
        - [counting\-words\-with\-a\-given\-prefix.cpp](leetcode_weekly_contests/05_feb27/counting-words-with-a-given-prefix.cpp)
        - [minimum\-number\-of\-steps\-to\-make\-two\-strings\-anagram\-ii.cpp](leetcode_weekly_contests/05_feb27/minimum-number-of-steps-to-make-two-strings-anagram-ii.cpp)
        - [minimum\-time\-to\-complete\-trips.cpp](leetcode_weekly_contests/05_feb27/minimum-time-to-complete-trips.cpp)
+     - __06\_mar06__
+       - [cells\-in\-a\-range\-on\-an\-excel\-sheet.cpp](leetcode_weekly_contests/06_mar06/cells-in-a-range-on-an-excel-sheet.cpp)
+     - __07\_mar13__
+       - [count\-artifacts\-that\-can\-be\-extracted.cpp](leetcode_weekly_contests/07_mar13/count-artifacts-that-can-be-extracted.cpp)
+       - [find\-all\-k\-distant\-indices\-in\-an\-array.cpp](leetcode_weekly_contests/07_mar13/find-all-k-distant-indices-in-an-array.cpp)
+       - [maximize\-the\-topmost\-element\-after\-k\-moves.cpp](leetcode_weekly_contests/07_mar13/maximize-the-topmost-element-after-k-moves.cpp)
    - __linked\_lists__
      - [convert\-binary\-number\-in\-a\-linked\-list\-to\-integer.cpp](linked_lists/convert-binary-number-in-a-linked-list-to-integer.cpp)
      - [delete\_node\_in\_linked\_list.cpp](linked_lists/delete_node_in_linked_list.cpp)
