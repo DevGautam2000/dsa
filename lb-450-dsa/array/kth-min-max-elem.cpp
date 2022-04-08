@@ -41,6 +41,7 @@ public:
 
  }   
 
+
  int partition(vector<int>& nums,int left,int right){
     //! hoare partition
 
@@ -53,6 +54,27 @@ public:
 	swap(nums[left], nums[r]);
 	return r;
 }
+
+
+ vector<int> kthMinMaxElemMaxHeap(vector<int> nums,int k){
+
+    priority_queue<int> mh;
+    for(auto i : nums){
+        mh.push(i);
+        if(mh.size()>k)
+            mh.pop();
+    }
+
+
+    priority_queue<int,vector<int>,greater<int>> minH;
+    for(auto i : nums){
+        minH.push(i);
+        if(minH.size()>k)
+            minH.pop();
+    }
+
+    return {mh.top(),minH.top()};
+ }
 
 
 //using set
@@ -78,7 +100,7 @@ vector<int> kthMinMaxSet(vector<int> nums, int k){
 int main(){
     io();
     cout << " Solution: " << endl;
-    vector<int> nums = {8,3,1,5,7};
+    vector<int> nums = {8,3,1,5,-2,7};
     // 1 3 5 7 8
 
     int k=3;
@@ -91,6 +113,9 @@ int main(){
 
     res = s.kthMinMaxSet(nums,k);
     cout<<"using set: ";console::display(res);
+
+    res = s.kthMinMaxElemMaxHeap(nums,k);
+    cout<<"using Heap: ";console::display(res);
 
     //TODO :res = s.kthMinMaxQuickSelect(nums,k); cout<<"using quick select: ";console::display(res);
     return 0;

@@ -17,6 +17,9 @@ vector<vector<int>> subsets(vector<int>& nums) {
                 vector<int> temp = ans[j];
                 temp.push_back(nums[i]);
                 ans.push_back(temp);
+
+                out(temp);
+                out(ans);
             }
         }
         

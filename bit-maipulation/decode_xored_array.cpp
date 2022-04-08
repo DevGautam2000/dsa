@@ -22,7 +22,6 @@ public:
 
     for (int i = 1; i < n + 1; i++)
       encoded[i] ^= encoded[i - 1];
-
     return encoded;
   }
 } s;

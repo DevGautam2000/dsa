@@ -16,6 +16,7 @@ public:
 
 int main(){
     io();
+    
     cout << " Solution: " <<  s.gcd(15,27) << endl;
     return 0;
 }

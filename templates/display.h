@@ -151,13 +151,13 @@ template <class S> void display(S a[],int n) {
 }
 
 template <class S> void display(vector<S> &vec) {
-  cout << "{";
+  cout << "[";
   for (auto i : vec) {
 
     display(i);
     cout << " ";
   }
-  cout << "}" << endl;
+  cout << "]" << endl;
 }
 
 

@@ -47,10 +47,17 @@
        - [pascals\_triangle.cpp](faang/array/pascals_triangle.cpp)
        - [sort\_colors.cpp](faang/array/sort_colors.cpp)
    - __google\-dsa\-course__
+     - __\_\_pycache\_\___
+       - [pyio.cpython\-39.pyc](google-dsa-course/__pycache__/pyio.cpython-39.pyc)
+     - [binary\-search.py](google-dsa-course/binary-search.py)
+     - [hash\-table.py](google-dsa-course/hash-table.py)
+     - [maps\-and\-hashing.py](google-dsa-course/maps-and-hashing.py)
      - [prac.py](google-dsa-course/prac.py)
      - [pyio.py](google-dsa-course/pyio.py)
      - [pyio.pyc](google-dsa-course/pyio.pyc)
      - [queue.py](google-dsa-course/queue.py)
+     - [quick\-sort.py](google-dsa-course/quick-sort.py)
+     - [recursion.py](google-dsa-course/recursion.py)
      - [singly\-linked\-list.py](google-dsa-course/singly-linked-list.py)
      - [stack\-using\-linked\-list.py](google-dsa-course/stack-using-linked-list.py)
    - __graph__
@@ -81,6 +88,10 @@
        - [program\-cyclically\-rotate\-array\-one.cpp](lb-450-dsa/array/program-cyclically-rotate-array-one.cpp)
        - [reverse\-array.cpp](lb-450-dsa/array/reverse-array.cpp)
        - [sort\-colors\-0s\-and\-1s.cpp](lb-450-dsa/array/sort-colors-0s-and-1s.cpp)
+     - __searching\-and\-sorting__
+       - [find\-a\-fixed\-point\-in\-a\-given\-array.cpp](lb-450-dsa/searching-and-sorting/find-a-fixed-point-in-a-given-array.cpp)
+   - __leetcode\-14days\-graph\-theory__
+     - [number\-of\-enclaves.cpp](leetcode-14days-graph-theory/number-of-enclaves.cpp)
    - __leetcode\_12\_days\_programming\-skills__
      - __array__
        - [matrix\-diagonal\-sum.cpp](leetcode_12_days_programming-skills/array/matrix-diagonal-sum.cpp)
@@ -210,6 +221,11 @@
        - [symmetric\_tree.cpp](leetcode_14_days_ds/tree/symmetric_tree.cpp)
        - [two\_sum\_IV.cpp](leetcode_14_days_ds/tree/two_sum_IV.cpp)
        - [validate\_binary\_tree.cpp](leetcode_14_days_ds/tree/validate_binary_tree.cpp)
+   - __leetcode\_20\_days\_programming\-skills__
+     - [balanced\-binary\-tree.cpp](leetcode_20_days_programming-skills/balanced-binary-tree.cpp)
+     - [evaluate\-reverse\-polish\-notation.cpp](leetcode_20_days_programming-skills/evaluate-reverse-polish-notation.cpp)
+     - [implement\-strstr.cpp](leetcode_20_days_programming-skills/implement-strstr.cpp)
+     - [rotate\-image.cpp](leetcode_20_days_programming-skills/rotate-image.cpp)
    - __leetcode\_21\_days\_dp__
      - [README.md](leetcode_21_days_dp/README.md)
      - [climbing\_stairs.cpp](leetcode_21_days_dp/climbing_stairs.cpp)
@@ -288,6 +304,8 @@
      - __05\_mar05__
        - [most\-frequent\-number\-following\-key\-in\-an\-array.cpp](leetcode_biweekly_contests/05_mar05/most-frequent-number-following-key-in-an-array.cpp)
        - [sort\-the\-jumbled\-numbers.cpp](leetcode_biweekly_contests/05_mar05/sort-the-jumbled-numbers.cpp)
+     - __06\_mar19__
+       - [divide\-array\-into\-equal\-pairs.cpp](leetcode_biweekly_contests/06_mar19/divide-array-into-equal-pairs.cpp)
    - __leetcode\_weekly\_contests__
      - __01\_jan30__
        - [keep\-multiplying\-found\-values\-by\-two.cpp](leetcode_weekly_contests/01_jan30/keep-multiplying-found-values-by-two.cpp)
@@ -311,6 +329,9 @@
        - [count\-artifacts\-that\-can\-be\-extracted.cpp](leetcode_weekly_contests/07_mar13/count-artifacts-that-can-be-extracted.cpp)
        - [find\-all\-k\-distant\-indices\-in\-an\-array.cpp](leetcode_weekly_contests/07_mar13/find-all-k-distant-indices-in-an-array.cpp)
        - [maximize\-the\-topmost\-element\-after\-k\-moves.cpp](leetcode_weekly_contests/07_mar13/maximize-the-topmost-element-after-k-moves.cpp)
+     - __08\_mar20__
+       - [count\-collisions\-on\-a\-road.cpp](leetcode_weekly_contests/08_mar20/count-collisions-on-a-road.cpp)
+       - [count\-hills\-and\-valleys\-in\-an\-array.cpp](leetcode_weekly_contests/08_mar20/count-hills-and-valleys-in-an-array.cpp)
    - __linked\_lists__
      - [convert\-binary\-number\-in\-a\-linked\-list\-to\-integer.cpp](linked_lists/convert-binary-number-in-a-linked-list-to-integer.cpp)
      - [delete\_node\_in\_linked\_list.cpp](linked_lists/delete_node_in_linked_list.cpp)
@@ -365,6 +386,7 @@
      - [k\-goodness\-string.cpp](strings/k-goodness-string.cpp)
      - [maximum\-number\-of\-words\-found\-in\-sentences.cpp](strings/maximum-number-of-words-found-in-sentences.cpp)
      - [minimum\-number\-of\-steps\-to\-make\-two\-strings\-anagram.cpp](strings/minimum-number-of-steps-to-make-two-strings-anagram.cpp)
+     - [print\-subset.cpp](strings/print-subset.cpp)
      - [reverse\_string.cpp](strings/reverse_string.cpp)
      - [shortest\_path.cpp](strings/shortest_path.cpp)
      - [string\_to\_integer\_atoi.cpp](strings/string_to_integer_atoi.cpp)
@@ -383,4 +405,7 @@
      - [kth\_smallest\_value.cpp](trees/kth_smallest_value.cpp)
      - [max\-depth.cpp](trees/max-depth.cpp)
      - [range\-sum\-of\-bst.cpp](trees/range-sum-of-bst.cpp)
+   - __tuts__
+     - [prog.cpp](tuts/prog.cpp)
+     - [prog2.cpp](tuts/prog2.cpp)
 

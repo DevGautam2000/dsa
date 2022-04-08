@@ -41,6 +41,8 @@ public:
  	explore(grid, r,c-1);
  	explore(grid, r,c+1);
 
+
+
  	return true;
 
  }
@@ -58,7 +60,9 @@ int main(){
     	{'L','L','W','W','W'},
     };
 
-    cout<< s.islandCount(grid);
+    auto res =  s.islandCount(grid);el;
+
+    cline(res);
 
     return 0;
 }
