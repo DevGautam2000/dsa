@@ -57,6 +57,9 @@ int main(){
     io();
 
     vector<vector<int>> grid = {{0,0,0,0},{1,0,1,0},{0,1,1,0},{0,0,0,0}};
+    // int ar[4][4] = {{0,0,0,0},{1,0,1,0},{0,1,1,0},{0,0,0,0}};
+    // int *arr = &ar;
+    // cout<<*arr;
     cout << " Solution: " << s.numEnclaves(grid) << endl;
 
     return 0;

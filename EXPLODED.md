@@ -23,6 +23,8 @@
      - [suffix\_sum.cpp](array/suffix_sum.cpp)
      - [triplets.cpp](array/triplets.cpp)
      - [valid\_mountain\_array.cpp](array/valid_mountain_array.cpp)
+   - __assets__
+     - [setup.png](assets/setup.png)
    - __bit\-maipulation__
      - [bit\-mask.cpp](bit-maipulation/bit-mask.cpp)
      - [decode\_xored\_array.cpp](bit-maipulation/decode_xored_array.cpp)
@@ -35,7 +37,6 @@
      - [pointers.cpp](concepts/pointers.cpp)
      - [structures.cpp](concepts/structures.cpp)
      - [templates.cpp](concepts/templates.cpp)
-   - [dsa\-cpp.sublime\-workspace](dsa-cpp.sublime-workspace)
    - __faang__
      - [Mastering+the+Coding+Interview+(FAANG)+\-+Course+Outline.pdf](faang/Mastering%2Bthe%2BCoding%2BInterview%2B(FAANG)%2B-%2BCourse%2BOutline.pdf)
      - [README.md](faang/README.md)
@@ -47,14 +48,10 @@
        - [pascals\_triangle.cpp](faang/array/pascals_triangle.cpp)
        - [sort\_colors.cpp](faang/array/sort_colors.cpp)
    - __google\-dsa\-course__
-     - __\_\_pycache\_\___
-       - [pyio.cpython\-39.pyc](google-dsa-course/__pycache__/pyio.cpython-39.pyc)
      - [binary\-search.py](google-dsa-course/binary-search.py)
      - [hash\-table.py](google-dsa-course/hash-table.py)
      - [maps\-and\-hashing.py](google-dsa-course/maps-and-hashing.py)
      - [prac.py](google-dsa-course/prac.py)
-     - [pyio.py](google-dsa-course/pyio.py)
-     - [pyio.pyc](google-dsa-course/pyio.pyc)
      - [queue.py](google-dsa-course/queue.py)
      - [quick\-sort.py](google-dsa-course/quick-sort.py)
      - [recursion.py](google-dsa-course/recursion.py)
@@ -91,7 +88,11 @@
      - __searching\-and\-sorting__
        - [find\-a\-fixed\-point\-in\-a\-given\-array.cpp](lb-450-dsa/searching-and-sorting/find-a-fixed-point-in-a-given-array.cpp)
    - __leetcode\-14days\-graph\-theory__
+     - [flood\-fill.cpp](leetcode-14days-graph-theory/flood-fill.cpp)
+     - [max\-area\-of\-island.cpp](leetcode-14days-graph-theory/max-area-of-island.cpp)
+     - [number\-of\-closed\-islands.cpp](leetcode-14days-graph-theory/number-of-closed-islands.cpp)
      - [number\-of\-enclaves.cpp](leetcode-14days-graph-theory/number-of-enclaves.cpp)
+     - [number\-of\-islands.cpp](leetcode-14days-graph-theory/number-of-islands.cpp)
    - __leetcode\_12\_days\_programming\-skills__
      - __array__
        - [matrix\-diagonal\-sum.cpp](leetcode_12_days_programming-skills/array/matrix-diagonal-sum.cpp)
