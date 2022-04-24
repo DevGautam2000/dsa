@@ -232,7 +232,7 @@ void io() {
 ### Regards you can now access a whole lot of user defined templates to use in your cpp files
 
 #### do setup vscode like this to see the input and output scenario
-<img src="./assets/setup.png" height="400"  alt="setup preview" />
+<img src="./assets/setup.png"  alt="setup preview" />
 
 #### after you are done with the setup open c cpp file and click on run button to see output in output.txt
 
