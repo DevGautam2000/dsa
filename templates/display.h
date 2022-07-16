@@ -45,6 +45,36 @@ namespace console {
 
 template <class T> void display(T var) { cout << var; }
 
+template <class S> void display(S a[],int n) {
+  cout << "{";
+  for (int i=0 ;i<n;i++) {
+
+    display(a[i]);
+    cout << " ";
+  }
+  cout << "}" << endl;
+}
+
+template <class S> void display(vector<S> &vec) {
+  cout << "[";
+  for (auto i : vec) {
+
+    display(i);
+    cout << " ";
+  }
+  cout << "]" << endl;
+}
+
+template <class S,typename FUNCTION>
+void display(vector<S> &vec, FUNCTION f) {
+    cout << "[";
+  for (auto i : vec) {
+    f(i);
+    cout << " ";
+  }
+  cout << "]" << endl;
+}
+
 template <class S> void display(list<S> &l) {
    
   for (auto i : l) 
@@ -167,25 +197,6 @@ template <class L> void display(L *s) {
     s = s->next;
   }
   cout << "[NULL]";el;
-}
-template <class S> void display(S a[],int n) {
-  cout << "{";
-  for (int i=0 ;i<n;i++) {
-
-    display(a[i]);
-    cout << " ";
-  }
-  cout << "}" << endl;
-}
-
-template <class S> void display(vector<S> &vec) {
-  cout << "[";
-  for (auto i : vec) {
-
-    display(i);
-    cout << " ";
-  }
-  cout << "]" << endl;
 }
 
 

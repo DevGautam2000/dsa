@@ -81,6 +81,15 @@ template <class S> void debug(vector<S> &vec) {
   cerr << "}" << endl;
 }
 
+template <class S,typename FUNCTION>
+void debug(vector<S> &vec, FUNCTION f) {
+    cerr << "[";
+  for (auto i : vec) {
+    f(i);
+    cerr << " ";
+  }
+  cerr << "]" << endl;
+}
 template <class S> void debug(list<S> &l) {
    
   for (auto i : l) 
@@ -118,6 +127,33 @@ template <class K, class V> void debug(map<K, V> &mp) {
   }
   cerr << "}," << endl;
 }
+
+template <class K, class V,typename FUNCTION>
+void debug(map<K,V> &mp, FUNCTION f) {
+    cerr << "{ ";
+    for (auto it : mp) {
+
+      debug(it.first);
+      cerr << " : ";
+      f(it.second);
+      cerr << "\n";
+    }
+    cerr << "}," << endl;
+}
+
+template <class K, class V,typename FUNCTION>
+void debug(unordered_map<K,V> &mp, FUNCTION f) {
+    cerr << "{ ";
+    for (auto it : mp) {
+
+      debug(it.first);
+      cerr << " : ";
+      f(it.second);
+      cerr << "\n";
+    }
+    cerr << "}," << endl;
+}
+
 template <class K, class V> void debug(unordered_map<K, V> &mp) {
   cerr << "{ ";
   for (auto it : mp) {

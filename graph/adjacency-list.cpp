@@ -48,6 +48,13 @@ namespace complexal{
 	public:
 		vector<string> neighbours;
 		City(string n){ name = n;}
+
+		string getname(){
+			return name;
+		}
+		string toString(){
+		return ("{ name= " + name + " }");
+  		}
 	};
 
 
@@ -74,7 +81,6 @@ namespace complexal{
 
 
 		void print(){
-			
 			console::display(map,[](auto city){
 			for(auto neighbour: city->neighbours)
 				cout<<neighbour<<", ";
@@ -84,8 +90,6 @@ namespace complexal{
 
 	};
 }
-
-
 
 
 
@@ -109,12 +113,27 @@ int main(){
    	vector<string> cities = {"Delhi","Mumbai","Kolkata","Maharashtra"};
    	complexal::Graph gr(cities);
 
+
    	gr.addEdge("Delhi","Mumbai");
    	gr.addEdge("Maharashtra","Mumbai");
    	gr.addEdge("Kolkata","Delhi");
    	gr.addEdge("Maharashtra","Kolkata");
 
    	gr.print();
+
+   	 using namespace complexal;
+
+   	vector<City> v = {
+   		City("Delhi"),
+   		City("Mumbai"),
+   		City("Delhi"),
+   		City("Delhi"),
+   	};
+
+   	console::display(v,[](auto city){
+   		cout<<city.getname()<<", ";
+   	});
+
     return 0;
 }
 
