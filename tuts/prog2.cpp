@@ -78,6 +78,7 @@ int main()
     // delete basePtr;
 
     BixDerived b = BixDerived();
+
     return 0;
 }
 	

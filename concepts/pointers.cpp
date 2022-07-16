@@ -1,5 +1,10 @@
 #include "io/io.h"
 
+void sum(int *a[], int n){
+        console::display(*a,n);
+}
+
+
 int main()
 {
     io();
@@ -30,6 +35,12 @@ int main()
 
     for (int i = 0; i < 3; i++)
         cout << pp[i] << " "; //the pointer does not advance but only the counter i
+
+    int k[4] = {1,2,3,4};
+    int *g[4]= {&k[0],&k[1],&k[2],&k[3]};
+    el;
+    sum(g,4);
+
 
     cout << endl;
     delete[] pp;

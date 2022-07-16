@@ -82,6 +82,20 @@ template <class K, class V> void display(map<K, V> &mp) {
   }
   cout << "}," << endl;
 }
+
+template <class K, class V,typename FUNCTION>
+void display(map<K,V> &mp, FUNCTION f) {
+    cout << "{ ";
+    for (auto it : mp) {
+
+      display(it.first);
+      cout << " : ";
+      f(it.second);
+      cout << "\n";
+    }
+    cout << "}," << endl;
+}
+
 template <class K, class V> void display(unordered_map<K, V> &mp) {
   cout << "{ ";
   for (auto it : mp) {
@@ -93,6 +107,20 @@ template <class K, class V> void display(unordered_map<K, V> &mp) {
   }
   cout << "}," << endl;
 }
+
+template <class K, class V,typename FUNCTION>
+void display(unordered_map<K,V> &mp, FUNCTION f) {
+    cout << "{ ";
+    for (auto it : mp) {
+
+      display(it.first);
+      cout << " : ";
+      f(it.second);
+      cout << "\n";
+    }
+    cout << "}," << endl;
+}
+
 
 template <class K, class V> void display(pair<K, V> &p) {
   cout << "{ ";

@@ -21,7 +21,6 @@ using namespace algo;
 using namespace ln;
 using namespace node;
 
-
 void io() {
 #ifndef ONLINE_JUDGE
 
